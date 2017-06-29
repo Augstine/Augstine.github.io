@@ -1,0 +1,790 @@
+li {
+    list-style:none;
+}
+
+/*固定导航栏  start*/
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:999;
+}
+/*固定导航栏  end*/
+
+.nshowcase {
+    width: 100%;
+}
+
+.nshowcase .scw {
+    margin: 0 auto;
+    width: 1068px;
+}
+
+.nshowcase .sct {
+    height: 480px;
+    text-align: center;
+    border-top: 1px solid #fff
+}
+
+.nshowcase .sct p {
+    margin: 0 auto
+}
+
+.nshowcase .sct .sctfir {
+    width: 888px;
+    height: 100px;
+    line-height: 100px;
+    margin: 136px auto 10px;
+    font-size: 98px;
+    font-weight: 700;
+    color: #c9161c;
+}
+
+.nshowcase .sct .sctmxgm {
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    display: block;
+    max-width: 100%;
+    width: 600px;
+    line-height: 50px;
+    font-size: 50px;
+    font-weight: 300;
+    color: black;
+}
+
+.nshowcase .sct .sctthir {
+    width: 392px;
+    height: 30px;
+    background-color: #ffd048;
+    color: #212121;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.nshowcase .sct div {
+    width: 0;
+    height: 16px;
+    border-left: 1px solid #575757;
+    margin: 4px auto 0;
+}
+
+.nshowcase .scnav dl {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+}
+
+.nshowcase .scnav dl dt {
+    width: 142px;
+    height: 48px;
+    border-top: 13px solid #c61819;
+    font-size: 26px;
+    color: #3c3c3c;
+    padding-top: 25px;
+    float: left;
+}
+
+.nshowcase .scnav dl dt a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.nshowcase .scnav dl dt.traveldt {
+    border-top: 13px solid #4f4f4f;
+}
+
+.nshowcase .scnav dl dd {
+    width: 152px;
+    height: 90px;
+    margin: 0;
+    border-top: 1px solid #9f9f9f;
+    border-left: 1px solid #9f9f9f;
+    display: block;
+    float: left;
+}
+
+.nshowcase .scnav dl dd div {
+    width: 100%;
+    height: 78px;
+    border-top: 12px solid transparent;
+    font-size: 20px;
+    color: #393939;
+    position: relative;
+   
+}
+
+.nshowcase .scnav dl dd div p {
+    margin: 0;
+}
+
+.nshowcase .scnav dl dd div p:first-child {
+    font-size: 14px;
+    height: 18px;
+    color: #d17921;
+    margin: 18px auto 0;
+}
+.nshowcase .scnav dl dd div p:first-child.active {
+    font-size: 11px;
+    height: 20px;
+    color: #d17921;
+    margin: 15px auto 0;
+}
+
+.nshowcase .scnav dl dd div p:last-child {
+    color: #1b1b1b;
+}
+
+.nshowcase .scbanar {
+    width: 100%;
+    height: 608px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.nshowcase .scbanart {
+    width: 1400px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+.nshowcase .scbanart .hzlt01 img {
+    margin:0;
+    padding:0;
+}
+
+.nshowcase .scbanart span {
+    width: 0;
+    height: 0;
+    display: block;
+    margin: 22px auto 8px;
+    padding: 2px 16px;
+    background-color: #fff;
+}
+
+.nshowcase .scbabarbg {
+    width: 100%;
+    height: 430px;
+    /*background-color: #e26c6c;*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.nshowcase .section {
+    margin-top: 58px;
+}
+
+.nshowcase .section li {
+    width: 252px;
+    height: 501px;
+    margin: 0 7px 78px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.hzl_wrap {
+    position: absolute;
+    bottom: 86px;
+    right:-90px;
+
+    /*background-color: red;*/
+    /*opacity: 0.5;*/
+}
+
+.wuxing {
+    position:absolute;
+    top:904px;
+    left:830px;
+    width:140px;
+    height: 120px;
+    /* background-color: red; */
+    margin-top: 520px;
+}
+
+ .hzl_wrap ul{
+    height:100%;
+    width:100%;
+ }
+
+ .hzl_wrap li {
+    list-style: none;
+    float: left;
+    margin-right: 3px;
+    cursor: pointer;
+    width:22px;
+    height: 22px;
+    background: url("../images/yangpian/star-default.png");
+
+
+    /*background: url("../images/yangpian/star-default.jpg");*/
+}
+
+.nshowcase{
+    position:relative;
+}
+
+.nshowcase .section li div {
+    width: 100%;
+    height: 42px;
+    margin: 12px 0 18px;
+}
+
+.nshowcase .section li .secview {
+    width: 246px;
+    height: 44px;
+    font-size: 12px;
+    background-color: #c1775a;
+    border: 1px solid #af6d55;
+    margin: 0 auto;
+    line-height: 44px;
+    color: #fff;
+    text-align: center;
+}
+
+.nshowcase .section li div .secnamel {
+    width: 149px;
+    text-align: left;
+}
+
+.nshowcase .section li div .secnamer {
+    width: 100px;
+    margin-right: 3px;
+    text-align: right;
+}
+
+.nshowcase .section li .secname span {
+    display: block;
+}
+
+.nshowcase .section li .secname span.photoname {
+    font-size: 14px;
+    line-height: 12px;
+    color: #656565;
+}
+
+.nshowcase .section li .secname span.photonamesec {
+    letter-spacing: -.3px;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.nshowcase .section li .secname span.chiname {
+    font-size: 21px;
+    line-height: 30px;
+    color: #000;
+}
+
+.nshowcase .section li .secname span.diresign {
+    width: 10px;
+    height: 12px;
+    font-size: 14px;
+    line-height: 9px;
+    text-align: center;
+    margin-top: 8px;
+    margin-right: 4px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #060606;
+    color: #fff;
+    padding-left: 2px;
+}
+
+.nshowcase .section li em {
+    /*background: #e06e56 ;*/
+    display: block;
+    height: 376px;
+    left: -247px;
+    overflow: hidden;
+    position: absolute;
+    top: 3px;
+    width: 240px;
+    opacity: .8;
+    filter: alpha(opacity=80);
+    zoom: 1;
+  
+}
+
+.nshowcase .section li:hover em {
+    left: 6px;
+}
+
+.nshowcase .scnav dl dd.korea.active div {
+    border-top: 12px solid #c9cbbe;
+}
+
+.nshowcase .scnav dl dd.korea:hover div {
+    border-top: 12px solid #c9cbbe;
+}
+
+.koreapage.nshowcase .section li .secview {
+    background-color: #c9cbbe;
+    border: 1px solid #bebfb9;
+}
+
+.koreapage.nshowcase .section li:hover .secview {
+    background-color: #b9bbb0;
+}
+
+.nshowcase .section li.koreapage .secview {
+    background-color: #c9cbbe;
+    border: 1px solid #bebfb9;
+}
+
+.nshowcase .section li.koreapage:hover .secview {
+    background-color: #b9bbb0;
+
+}
+
+.mbang2 {
+    width: 10000px;
+    height: 1000000px;
+    position: absolute;
+    top: 420px;
+    left: 0px;
+    z-index: 0;
+    background-color: rgb(238, 238, 238);
+}
+
+.pages {
+    background: transparent none repeat scroll 0% 0%;
+    text-align: center;
+    position: relative;
+    background-color: #3F674C;
+    margin-bottom: -300px;
+}
+
+.page {
+    height: 40px;
+    margin: auto;
+    padding-top: 20px;
+    width: 736px;
+}
+
+.page span {
+    float: none;
+    padding: 5px 8px;
+    margin-left: 15px;
+    color: #393939;
+}
+
+.page a {
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    color: #393939;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 7px 15px;
+}
+
+.smallWidth .page a {
+    padding: 7px 15px;
+}
+
+.smallWidth .page {
+    width: 736px;
+}
+#hzl-ad {
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+    width: 230px;
+    height: 120px;
+    z-index: 33;
+    background: url(../images/yangpian/q2.png) no-repeat;
+    display: none;
+    text-align: center;
+    color: #ff4ddb;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#hzl-ad span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 18px;
+    background-image: url(../images/yangpian/h.jpg);
+    cursor: pointer;
+}
+
+
+#hzl-xhj {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 133px;
+    right: 13px;
+    z-index:999;
+}
+
+#hzl-ewmlj{
+    width: 50px;
+    height: 50px;
+    background: url(../images/yangpian/bgs.png) no-repeat -159px -51px;
+    position: fixed;
+    right: 10px;
+    top: 40%;
+    z-index: 9999;
+}
+#hzl-ewmlj #hzl-ewm {
+    position: absolute;
+    top: -40px;
+    left: -150px;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.nshowcase .scnav dl dd .hzlxfk{
+    position: absolute;
+    top: -13px;
+    left: 0;
+    width: 152px;
+    height: 10px;
+    background-color: pink;
+}
+
+
+/*-----------------ÕÕÆ¬Ç½¿ªÊ¼-------------*/
+.hzphoto .wrap {
+    /*height: 400px;*/
+
+
+}
+
+
+
+.content_photo{
+    margin:60px auto 300px;
+    position:relative;
+    width:1000px;
+    height: 245px;
+
+}
+.content_photo img{
+    position:absolute;
+    padding:10px;
+    background:#fff;
+    border: none;
+    border-radius:6px;
+    width:240px;
+    height:160px;
+    -webkit-transition:1s;
+    z-index:1;
+    background: radial-gradient( transparent 0px, transparent 4px, white 4px, white );
+    background-size: 20px 20px;
+    background-position: -10px -10px;
+
+}
+.content_photo img:hover{
+
+    -webkit-transform: rotate(0deg);
+    -webkit-transform: scale(1.5);
+    -webkit-box-shadow:10px 10px 15px #ccc;
+    z-index:999;
+    border-bottom-right-radius:140px 30px;
+}
+.img01{
+    top:-14px;
+    left:350px;
+    transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+}
+.img02{
+    top: -30px;
+    left: 596px;
+    -o-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+}
+.img03{
+    top:-30px;
+    left:30px;
+    -o-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+}
+.img04{
+    top:130px;
+    left:-27px;
+    -o-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+}
+.img05{
+    top:30px;
+    left:180px;
+    -o-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+}
+.img06{
+    top: 124px;
+    left: 723px;
+    -o-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+}
+.img07{
+    top:260px;
+    left:560px;
+    -o-transform: rotate(30deg);
+    -webkit-transform: rotate(-30deg);
+    -ms-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+}
+.img08{
+    top:250px;
+    left:50px;
+    -o-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+}
+.img09{
+    top: 280px;
+    left: 290px;
+    -o-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+}
+
+.img10{
+    top:-11px;
+    left:11px;
+    -o-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+}
+.img11{
+    top: 322px;
+    left: 696px;
+    -o-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+}
+.img12{
+    top: 165px;
+    left: 370px;
+    -o-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+}
+
+#light_first{
+    width: 90px;
+    height: 50px;
+    border-radius: 50px;
+    position: fixed;
+    opacity: 0.5;
+    top:20px;
+    right:20px;
+}
+#light_second{
+    width: 50px;
+    height: 50px;
+    border-radius: 48px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
+}
+.open1{
+    background: rgba(0,184,0,0.8);
+}
+.open2{
+    top: 0px;
+    right: 1px;
+}
+.close1{
+    background: rgba(255,255,255,0.4);
+    border:1px solid rgba(0,0,0,0.15);
+    border-left: transparent;
+}
+.close2{
+    left: 0px;
+    top: 0px;
+    border:1px solid rgba(0,0,0,0.1);
+}
+.caution{
+    position:fixed;
+    right:20px;
+    top:90px;
+}
+.caution p:first-child{
+    opacity: 0;
+    -ms-animation:dcaution 5s  ;
+    -moz-animation:dcaution 5s  ;
+    -webkit-animation:dcaution 5s  ;
+}
+.caution p:last-child{
+    opacity: 0;
+
+    -webkit-animation:dcaution 5s 5s ;
+    -moz-animation:dcaution 5s 5s ;
+    -ms-animation:dcaution 5s 5s ;
+}
+@-webkit-keyframes dcaution{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+
+    }
+}
+@-moz-keyframes dcaution{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+
+    }
+}
+@-ms-keyframes dcaution{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+
+    }
+}
+.hzphoto .wrap  {
+    margin-top: 20px;
+}
+.hzhy p {
+    font: 51px/12px "Î¢ÈíÑÅºÚ";
+    text-align: center;
+    padding-bottom: 45px;
+    margin-top: 7px;
+}
+
+
+/*------------------ÕÕÆ¬Ç½½áÊø-----------------*/
+/*.scbanar .scbanart {*/
+    /*height: 504px;*/
+/*}*/
+
+/*´óÍ¼±³¾°ÑùÊ½*/
+.scbanar .scbanart .hzlc1 {
+    background:url("../images/yangpian/01.bmp");
+    width: 1399px;
+    height: 105px;
+    /*float: left;*/
+
+}
+.hzlc2 {
+    background:url("../images/yangpian/02.bmp");
+    width: 1399px;
+    height: 104px;
+    /*float: left;*/
+}
+.hzlc3 {
+    background:url("../images/yangpian/03.bmp");
+    width: 1399px;
+    height: 150px;
+    /*float: right;*/
+}
+.hzlc4 {
+    background:url("../images/yangpian/04.bmp");
+    width: 1399px;
+    height: 143px;
+    /*float:right;*/
+}
+.deb ul{
+    margin-left:49px;
+}
+.deb li {
+    float: left;
+    width: 0px;
+    border:0px;
+   /*display:none;*/
+    height: 133px;
+    opacity: 0;
+}
+
+.deb li img{
+    /*display:none;*/
+    /*width:0;*/
+
+}
+
+.scbanar {
+    position: relative;
+
+}
+.scbanart {
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+.tpde {
+    position: absolute;
+    top:-608px;
+    left:0px;
+}
+.deb {
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+.tpde1 {
+    width: 0px;
+    height: 105px;
+    opacity: 0;
+    background: url("../images/yangpian/t2001.jpg");
+}
+.tpde2 {
+    width: 1399px;
+    opacity: 0;
+    height: 104px;
+    background: url("../images/yangpian/t2002.jpg");
+}
+.tpde3 {
+    width: 0px;
+    opacity:    0;
+    height: 150px;
+    background: url("../images/yangpian/t2003.jpg");
+}
+.tpde4 {
+    width: 1399px;
+    opacity: 0;
+    height: 143px;
+    background: url("../images/yangpian/t2004.jpg");
+}
+
+.yangpian {
+    font:bolder 52px/12px "Î¢ÈíÑÅºÚ";
+    text-align: center;
+}

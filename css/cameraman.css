@@ -1,0 +1,158 @@
+ /*-----顶部背景 ST---------*/
+.topbanner  {
+	background: url('../images/tpbanner.jpg') no-repeat -305px 0;
+	height: 360px;
+}
+ 
+  /*-----顶部背景 ED---------*/
+
+
+ /* ------ 中间部分照片ST ---------- */
+ /* 总监级样式 */
+.cameraman .wrap .majordomo {
+	width: 1140px;
+	height: 83px;
+
+	margin-top: 14px;
+}
+
+.yanse {
+	float: left;
+	width: 127px;
+	height: 45px;
+	border: 1px solid black;
+	margin-left: 86px;
+    margin-top: 20px;
+	text-align: center;
+	line-height: 45px;
+	cursor: pointer;
+}
+.cameraman {
+	position: relative;
+}
+.cameraman .del{
+  width: 53px;
+  height: 53px;
+  cursor: pointer;
+
+  position: absolute;
+  top: -70px;
+  left: 670px;
+  border-radius: 50%;
+}
+/*鼠标悬浮,背景红色,字体白色*/
+.lihover{
+    margin-top: 20px;
+     margin-left: 86px;
+    float: left;
+    width: 127px;
+    height: 45px;
+	box-shadow: 1px 1px 10px #ff090a inset;
+  -webkit-box-shadow: 1px 1px 10px #ff090a inset;
+  -moz-box-shadow: 1px 1px 10px #ff090a inset;
+    border: 1px solid #ff090a;
+    background-color: #ff090a;
+    color: #fff;
+    transition: .7s;
+  text-align: center;
+  line-height: 45px;
+  cursor: pointer;
+}
+
+.lionclick {
+  margin-top: 20px;
+  margin-left: 86px;
+  float: left;
+  width: 127px;
+  height: 45px;
+  box-shadow: 1px 1px 10px #ff090a inset;
+  -webkit-box-shadow: 1px 1px 10px #ff090a inset;
+  -moz-box-shadow: 1px 1px 10px #ff090a inset;
+  border: 1px solid #ff090a;
+  background-color: #ff090a;
+  color: #fff;
+
+  text-align: center;
+  line-height: 45px;
+  cursor: pointer;
+}
+/* 背景变色类名 */
+
+
+.cameraman .wrap .pic {
+  display: inline-block;
+}
+
+/* 单张图片样式 */
+ .pic {
+   width: 1120px;
+   margin:0 auto;
+   position: relative;
+   height:1590px;
+    margin-bottom:25px;
+ }
+body{
+  background: #f0f0f0 url("../images/global.jpg") no-repeat -624px 659px;
+
+}
+
+ .pic li{
+    float: left;
+    margin-left: 11px;
+    width: 173px;
+    height: 234px;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+
+}
+.pic li.ph{
+  border: 1px solid #ff090a;
+  box-shadow: 0 0 20px 1px #ff2115;
+  -webkit-box-shadow: 0 0 20px 1px #ff2115;
+  -moz-box-shadow: 0 0 20px 1px #ff1722;
+}
+ .pic1 li:hover{
+   border: 1px solid #ff090a;
+   box-shadow: 0 0 20px 1px #f81a2e;
+   -webkit-box-shadow: 0 0 20px 1px #ff0c15;
+   -moz-box-shadow: 0 0 20px 1px #ff1934;
+ }
+.pic li p{
+
+	font-size: 16px;
+	text-align: center;	
+	line-height: 45px;
+	color: #6B6B6B;
+
+}
+  li img {
+    width: 173px;
+    height: 186px;
+}
+.dr {
+  position: relative;
+}
+
+.da {
+  position: absolute;
+}
+
+
+
+
+
+
+ #tooltip {
+   position:absolute;
+   width:200px;
+   height:200px;
+   overflow:hidden;
+   background: #e9f6ed;
+   color:#fff;
+   display:none;
+   padding:4px 4px;
+   border:4px dashed #5c5c5c;
+ }
+
+
+ /* ------ 中间部分照片ED ---------- */

@@ -1,0 +1,487 @@
+
+
+/*固定导航栏  start*/
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:999;
+}
+/*固定导航栏  end*/
+
+.main {
+    width:100%;
+}
+.main .lunbo {
+    width:1349px;
+    height: 540px;
+    overflow: hidden;
+    position: relative;
+}
+.main .lunbo .tplunbo {
+    width:6750px;
+    height: 540px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*/!*text-align: center;*!/*/
+}
+.main .lunbo .tplunbo li {
+    float: left;
+    width: 1349px;
+    cursor: pointer;
+    /*display:block;*/
+}
+.main .lunbo ul li img {
+    width:1349px;
+    height: 540px;
+}
+.main .lunbo .codelist {
+    display: block;
+    width: 90px;
+    height: 20px;
+    background-color:rgba(0,0,0,0.3);
+    position: absolute;
+    bottom:10px;
+    left:50%;
+    margin-left:-45px;
+    border-radius: 10px;
+}
+.main .lunbo .codelist li {
+    width: 10px;
+    height: 10px;
+    border-radius:5px;
+    /*background-color: #fff;*/
+    background-color: #645d6f;
+    float:left;
+    margin-left:10px;
+    margin-top:5px;
+}
+.main .lunbo .arr {
+    display:none;
+}
+.main .lunbo .arr .left{
+    width: 60px;
+    height: 118px;
+    position: absolute;
+    left:119px;
+    top:50%;
+    margin-top:-59px;
+    /*background-color:#000;*/
+    background: url("../images/thpngbg.png") -202px 0;
+    cursor: pointer;
+}
+
+.main .lunbo .arr .right{
+    width: 60px;
+    height: 118px;
+    position: absolute;
+    right:119px;
+    top:50%;
+    margin-top:-59px;
+    /*background-color:#000;*/
+    background: url("../images/thpngbg.png") -262px 0;
+    cursor: pointer;
+}
+
+.main .lunbo .codelist li.current {
+	background-color: #c24e59;
+}
+.anyelse {
+	background-color: #645d6f;
+}
+
+/*----------------轮播区域-----------------------------*/
+
+/*---------------------活动标题---------------------*/
+.main .wrap .actitle {
+	margin:50px auto;
+	text-align: center;
+}
+.main .wrap .yunifunny {
+	width: 100%;
+	text-align: center;
+}
+.main .wrap .yunifunny p a img {
+	width: 1120px;
+	height: 533px;
+}
+
+.main .wrap .acbox li {
+    width: 538px;
+    height: 550px;
+    padding:11px;
+    float:left;
+    cursor: pointer;
+    position: relative;
+}
+/*摄影活动及活动信息*/
+.main .wrap .acbox li .acmask {
+    width: 538px;
+    height: 417px;
+}
+.main .wrap .acbox li .acmask img {
+    width: 538px;
+    height: 417px;
+}
+.main .wrap .acbox li .acmask a {
+    /*display:none;*/
+    width: 538px;
+    height: 417px;
+    background:url(../images/thlink.png) no-repeat center center #C64040;
+    position: absolute;
+    opacity: 0;
+    top:11px;
+    left:11px;
+}
+
+.main .wrap .clearfloat li .photo-info {
+    width: 100%;
+    height:57px;
+    margin-top:5px;
+    border-bottom: 1px solid #999;
+}
+.main .wrap .clearfloat li .photo-info div {
+    width: 405px;
+    height: 57px;
+    float:left;
+}
+.photo-info div span {
+    display: block;
+    color:#999;
+    height: 21px;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.main .wrap .clearfloat li .photo-info div h4 a {
+    font:bold 20px "微软雅黑";
+}
+
+.acbox span {
+    color: #999;
+    font-size: 12px;
+}
+
+.main .wrap .clearfloat li .know{
+    width: 405px;
+    height: 60px;
+    float: left;
+}
+.main .wrap .clearfloat li .info1 a {
+    display:block;
+    float: right;
+    background: #DC504F;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 7px 0;
+    width: 115px;
+    height: 30px;
+    margin-top: 25px;
+    line-height: 30px;
+}
+/*摄影样式展示*/
+.main .wrap .tpheightlight {
+    width: 100%;
+    margin-top:10px;
+    background: #000;
+    /*opacity: 0.2;*/
+    /*border: 1px solid #ccc;*/
+}
+
+.main .wrap .tpheightlight span {
+    display: block;
+    width: 1120px;
+    height: 300px;
+}
+.main .wrap .tpheightlight span a {
+    position: relative;
+}
+.main .wrap .tpheightlight span .beforecover1 {
+    display: block;
+    height: 300px;
+    width: 224px;
+    background-color: #000;
+    opacity: 0.8;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.main .wrap .tpheightlight span .beforecover2 {
+    background-color: #000;
+    opacity: 0.8;
+    width: 896px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .wrap .tpheightlight .tpt a img {
+     padding:0px;
+     margin:0px;
+     width: 20%;
+     height: 300px;
+     float:left;
+}
+
+/*.main .wrap .tpheightlight .tpb {*/
+    /*height: 300px;*/
+/*}*/
+.main .wrap .tpheightlight .tpb .tpb1 img{
+    width: 80%;
+    height: 300px;
+    float: left;
+}
+.main .wrap .tpheightlight .tpb .tpb2 img{
+    width: 20%;
+    height: 300px;
+    float:left;
+}
+
+.main .wrap .scrolltop {
+    margin:20px auto;
+    text-align: center;
+}
+.main .wrap .scrolltop a {
+    display: block;
+    width: 69px;
+    height: 24px;
+    margin:0 auto;
+    background: url("../images/thbg12.png") no-repeat -7px -2px;
+}
+
+.main .fixed .closeOrOpen {
+    width: 24px;
+    height: 25px;
+}
+.main .fixed .closeOrOpen .thopen {
+    width: 24px;
+    height: 25px;
+    border-radius: 50%;
+    position: fixed;
+    right:0;
+    top: 52px;
+    background: url(../images/th2.jpg) no-repeat #fff;
+    cursor: pointer;
+    z-index: 7;
+    display: none;
+}
+.main .fixed .closeOrOpen .thclose {
+    width: 24px;
+    height: 25px;
+    border-radius: 50%;
+    position: fixed;
+    right:197px;
+    top: 52px;
+    background: url(../images/th1.jpg) no-repeat #fff;
+    cursor: pointer;
+    z-index: 7;
+}
+.main .fixed .fixr {
+    width: 197px;
+    height: 589px;
+    background: url("../images/thright_bg.png") no-repeat -1px -3px;
+    position: fixed;
+    top:50px;
+    right:0px;
+
+}
+.main .fixed .fixr span {
+    width: 29px;
+    height: 29px;
+    text-align: center;
+    line-height: 29px;
+    font-size: 20px;
+}
+
+.main .fixed .fixr .fixtp {
+    margin-left:49px;
+}
+.main .fixed .fixr .fixtp .intre {
+    margin-top:149px;
+}
+.main .fixed .fixr .fixtp .like {
+    margin-top: 55px;
+}
+.main .fixed .fixr .fixtp .hot {
+    margin-top: 39px;
+}
+.main .fixed .fixr .fixtp .news{
+    margin-top: 42px;
+    margin-left: -13px;
+}
+.main .fixed .fixr .fixtp .news a img{
+    width: 90px;
+}
+
+.main .fixed .gmservice {
+    width: 82px;
+    height: 300px;
+    border-radius:5px;
+    position: fixed;
+    top:0;
+    right:0;
+}
+.main .fixed .gmservice .GMlogo {
+    width: 82px;
+    height: 73px;
+    background: url(../images/thq2.png) no-repeat top left;
+}
+.main .fixed .gmservice ul {
+    width: 82px;
+    height: 227px;
+    background-color: #a9d2ce;
+}
+
+.main .fixed .gmservice ul li {
+    width: 58px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    text-align: left;
+    margin-left: 3px;
+    padding-left: 18px;
+    background: url("../images/thq1.png") no-repeat left center  #ffffff;
+}
+.main .fixed .gmservice ul li a {
+    font:12px/12px "微软雅黑";
+}
+.main .fixed .backtop {
+    width: 29px;
+    height: 78px;
+    position: fixed;
+    bottom:30px;
+    right:5px;
+    background: url("../images/thpngbg.png") no-repeat -287px -131px;
+    cursor: pointer;
+    display:none;
+}
+.main .fixed .fixl {
+    width: 70px;
+    height: 328px;
+    position: fixed;
+    top:50px;
+    left:0;
+    /*background-color: #000;*/
+    border-width:4px 5px 5px 2px;
+    border-color:#060805;
+    border-style: solid;
+}
+.main .fixed .fixl ul li {
+    height: 82px;
+    width: 100%;
+}
+.main .fixed .fixl ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/left_fixed.jpg") no-repeat;
+}
+.main .fixed .backtop {
+    width: 29px;
+    height: 78px;
+    position: fixed;
+    bottom:30px;
+    right:5px;
+    background: url("../images/thpngbg.png") no-repeat -287px -131px;
+    cursor: pointer;
+    display:none;
+    z-index: 10;
+}
+.main .fixed .fixl ul li .leftfix1 {
+    background-position:0 0;
+}
+.main .fixed .fixl ul li .leftfix2 {
+    background-position:-70px 0;
+}
+.main .fixed .fixl ul li .leftfix3 {
+    background-position:-140px 0;
+}
+.main .fixed .fixl ul li .leftfix4 {
+    background-position:-210px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.show {
+    display: block;
+}
+.hide{
+    display: none;
+}
+
+
+

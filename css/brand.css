@@ -1,0 +1,246 @@
+.team .wrap{
+  height: 400px;
+  width: 1120px;
+
+}
+.team .wrap h2 {
+
+}
+
+/*.wrap{*/
+    /*width:1200px;*/
+    /*margin:10px auto;*/
+/*}*/
+.slide {
+    height:500px;
+    position: relative;
+}
+.slide li{
+    position: absolute;
+    left:200px;
+    top:0;
+}
+.slide li img{
+    width:100%;
+    
+}
+.arrow{
+    opacity: 0;
+}
+
+
+/*太郎花子能做什么 字体样式*/
+.tlhz {
+    width: 757px;
+    height: 111px;
+    border-bottom: 1px solid #777;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 126px;
+    /*line-height: 111px;*/
+    margin-bottom: 31px;
+    position: relative;
+}
+
+.tlhz span {
+    display: inline-block;
+    width: 48px;
+    height: 51px;
+    font: bold 52px/51px "微软雅黑";
+    color:#777777;
+    margin-left: 10px;
+    position: absolute;
+    padding: 20px 20px;
+    
+}
+.sel {
+   display: none;
+}
+.what .wrap{
+    height: 200px;
+
+    margin-top: 3px;
+
+}
+.what .wrap li{
+    height: 300px;
+    width: 260px;
+    margin-left: 3px;
+    margin-top: 6px;
+
+    border-radius: 6px;
+    
+
+}
+.what .wrap div {
+    float: left;
+    width: 265px;
+    height: 308px;
+    margin-left:15px;
+}
+.what .wrap ul {
+    position: relative;
+}
+.what .wrap li {
+    position: absolute;
+}
+.what .wrap span{
+    display: inline-block;
+    width: 68px;
+    height: 64px;
+
+    position: absolute;
+    top: 40px;
+    left: 96px;
+}
+.what .wrap h3{
+    position: absolute;
+    top: 127px;
+    left: 96px;
+}
+
+.what .wrap p{
+
+    margin-top: 172px;
+    margin-left: 31px;
+    width: 210px;
+}
+.what1{
+    margin-top: 225px;
+    width: 820px;
+}
+
+
+/*为什么选择太郎花子下面图样式*/
+.whtl .wrap{
+    height: 350px;
+    /*background-color:pink;*/
+    position: relative;
+    /*overflow: hidden;*/
+}
+.whtl .wrap .ys {
+    width: 180px;
+    height: 180px;
+    border-radius:90px;
+    position: absolute;
+    margin-top: 70px;
+    left: -200px;
+    opacity: 0;
+    text-align: center;
+    line-height: 180px;
+}
+
+.whtl .wrap span {
+    display: inline-block;
+    font:bolder 28px "微软雅黑";
+
+    color:#fff;
+}
+.whtl .wrap p{
+   
+    width: 200px;
+    font:16px/23px "微软雅黑";
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    bottom: 65px;
+    left: 32px;
+    opacity: 0;
+}
+
+/*.czjz .wrap{*/
+    /*height: 200px;*/
+/*}*/
+.czjz .wrap ul{
+    width: 1120px;
+
+}
+.czjz .wrap li{
+    width: 156px;
+    height: 400px;
+    background-color: #fdacdc;
+    float: left;
+    margin-left: 1px;
+    /*display: none;*/
+}
+.czjz .wrap .tb{
+    width: 490px;
+}
+
+/*选择框内样式*/
+.sel .the-submit li{
+    width: 170px;
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+    padding-top: 28px;
+}
+.sel .the-submit p{
+    display: block;
+    width: 100%;
+    height: 70px;
+    font-size: 23px;
+    color: #000000;
+    line-height: 70px;
+}
+.sel .the-submit select {
+    width: 168px;
+    height: 50px;
+    border: 1px solid #251e1e!important;
+    cursor: pointer;
+    font-size: 18px;
+    color: #000000;
+    display: inline;
+    zoom: 1;
+    background: #F6F6F6;
+    outline: none;
+    color: #222222;
+}
+.sel .the-submit select:hover {
+    background-color: #eef1f6;
+}
+
+.sel .the-submit input {
+    position: relative;
+    width: 167px;
+    height: 48px;
+    border: 1px solid #251e1e!important;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000000;
+    background: #F6F6F6;
+    display: inline;
+    zoom: 1;
+    margin-bottom: 8px;
+
+}
+.sel .the-submit button{
+    width: 168px;
+    height: 50px;
+
+    font-size: 18px;
+    color: #ffffff;
+    border: 0 none;
+    outline: none;
+    /*background-color: #ccc;*/
+
+
+}
+.sel .the-submit i {
+    margin-right: 15px;
+}
+.sel .wrap img{
+    width: 423px;
+    height: 52px;
+}
+
+.cuowu {
+    color: #ff2211;
+}
+.red {
+    color: #2ba921;
+}
+
+.anniu {
+    background: #F19015;
+}

@@ -1,0 +1,213 @@
+/* 网页头部 start*/
+.head {
+    height:130px;
+    background:#c9161c;
+}
+
+.head .logo {
+    margin-top:35px;
+}
+
+.head .logo img {
+    display:block;
+}
+
+.store {
+    width:270px;
+    height:65px;
+    background:url('../images/2016_dh.png') no-repeat;
+    float:left;
+    margin:35px 0 0 25px;
+}
+
+.store a {
+    display: inline-block;
+    width: 52px;
+    height: 100%;
+    float: left;
+}
+
+.head .logo-right {
+    margin-top:30px;
+    overflow:hidden;
+}
+
+.head .logo-right .right {
+    width:322px;
+    height:71px;
+    position:relative;
+}
+
+.head .logo-right .right>div {
+    position:absolute;
+}
+
+.head .logo-right .right .r1 {
+    width:230px;
+    height:46px;
+    background:url('../images/logoright1.png') no-repeat;
+    top:0;
+    left:0;
+    animation: moveto1 .5s ease both;
+    animation-delay:1s;
+}
+
+.head .logo-right .right .r2 {
+    width:226px;
+    height:45px;
+    background:url('../images/logoright2.png') no-repeat;
+    bottom:9px;
+    left:96px;
+    animation: moveto2 1s ease both;
+    animation-delay:3s;
+}
+
+.head .logo-right .right .r3 {
+    width:117px;
+    height:12px;
+    background:url('../images/logoright3.png') no-repeat;
+    bottom:8px;
+    right:0;
+    animation: moveto3 1s ease both;
+    -webkit-animation: moveto3 1s ease both;
+    animation-delay:2s;
+    -webkit-animation-delay:2s;
+}
+
+@keyframes moveto1 {
+    0%{top: -80px;}
+    100%{top:0;}
+}
+
+@keyframes moveto2 {
+    0%{bottom: -80px;}
+    100%{bottom: 9px;}
+}
+
+@keyframes moveto3 {
+    0%{bottom: -54px;right:150px;}
+    100%{bottom: 8px;right:0;}
+}
+/* 网页头部 end*/
+/*头部导航栏 start*/
+.nav {
+    width:100%;
+    height:42px;
+    background:#000;
+}
+
+.nav>ul>li {
+    float:left;
+    line-height:41px;
+}
+
+.nav ul li.brand {
+    position:relative;
+}
+
+.nav ul li a {
+    color:#fff;
+    display:block;
+    padding:0 25px;
+    font-size:16px;
+}
+
+.nav ul li a:hover {
+    color: #FACC03;
+}
+
+/*.nav ul li.brand:hover .drop {*/
+    /*display:block;*/
+/*}*/
+
+.nav ul li .drop {
+    position:absolute;
+    left:21px;
+    top:40px;
+    width:75%;
+    background:#000;
+    display:none;
+    z-index:999;
+}
+
+.nav ul li .drop li {
+    border-top:2px solid red;
+}
+
+.nav ul li .drop li:last-child {
+    border-top:1px dotted #ccc;
+}
+
+.nav ul li .drop li a {
+    font-size:14px;
+}
+
+/*固定导航栏  start*/
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:999;
+}
+/*固定导航栏  end*/
+/*头部导航栏 end*/
+/*网页底部 start*/
+.foot {
+    /* margin-top:300px;  为了与顶部隔开所设的距离,做的时候去掉. */
+    height:610px;
+    padding-top:240px;
+    background:#000 url('../images/contact.png') no-repeat center 60px;
+}
+
+.foot .footwrap {
+    width: 1092px;
+    margin:0 auto;
+    font-size:13px;
+    color:#fff;
+}
+
+.foot .footwrap dl {
+    float:left;
+    width:1092px;
+    margin-top:40px;
+
+}
+
+.foot .footwrap dl dt {
+    border-left:5px solid #DD4F4D;
+    padding-left:5px;
+    font-size:20px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.foot .footwrap dl dd {
+    width:25%;
+    float:left;
+    padding:10px 0;
+    margin-left:0;
+}
+
+.foot .footwrap dl dd span {
+    color:#DD4F4D;
+}
+
+.foot .copyright {
+    margin-top:50px;
+}
+
+.foot .copyright .fl{
+    width:20%;
+}
+
+.foot .copyright img {
+    margin:0 auto;
+    display:block;
+}
+
+.foot .copyright .fr {
+    width:80%;
+    color:#999;
+    margin-top:15px;
+}
+/*网页底部 end*/

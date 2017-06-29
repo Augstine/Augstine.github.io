@@ -1,0 +1,368 @@
+
+
+/*客片样式*/
+/*body整体的背景*/
+body {
+    /*background-color: skyblue;*/
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:999;
+}
+
+/*客片位置介绍*/
+.location_index{
+    width:100%;
+    height: 55px;
+}
+.location_index .wrap {
+    height: 55px;
+    line-height: 55px;
+}
+.location_index .wrap div {
+    font-size: 12px;
+}
+.location_index .wrap div b{
+    color:#333;
+}
+.location_index .wrap div span{
+    color:#333;
+}
+/*位置介绍下的一个lovershowcase图片*/
+.nav_pic {
+    width:1183px;
+    margin:0 auto;
+}
+
+/*客片展示的大图片*/
+.loveCaseBigPic {
+    width:100%;
+    height: 620px;
+    overflow: hidden;
+    margin:0 auto;
+    position:relative;
+    background:url("../images/g_pic.jpg") no-repeat;
+}
+/*loveCaseBigPic*/
+
+/*中部轮播区域图片展示*/
+.loveCaseBigPic .trunPlay {
+    width:534px;
+    height:189px;
+    position:relative;
+    top:80px;
+    left:30px;
+    overflow: hidden;
+    z-index:2;
+}
+/*轮播图下方的按钮start*/
+.loveCaseBigPic .trunPlay ol {
+    width: 194px;
+    height: 20px;
+    background-color:rgba(255,255,255,0.3);
+    position:absolute;
+    bottom:10px;
+    border-radius:10px;
+    padding-left:6px;
+    left:50%;
+    margin-left: -100px;
+}
+.loveCaseBigPic .trunPlay ol li {
+    float:left;
+    border-radius:50%;
+    line-height: 20px;
+    text-align:center;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    cursor:pointer;
+    opacity:0.8;
+}
+
+/*轮播图下方的按钮end*/
+
+/*左右两侧的小箭头*/
+.loveCaseBigPic .trunPlay span {
+    display:block;
+    width: 30px;
+    height: 50px;
+    font-size: 50px;
+    line-height:50px;
+    background:rgba(0,0,0,0.3);
+    cursor:pointer;
+    color:#fff;
+    position:absolute;
+}
+.loveCaseBigPic .trunPlay span.right {
+    top: 50%;
+    margin-top:-25px;
+    right:0;
+}
+.loveCaseBigPic .trunPlay span.left {
+    top: 50%;
+    left:0;
+    margin-top:-25px;
+}
+.loveCaseBigPic .trunPlay ul {
+    width:700%;
+    height:189px;
+    position:absolute;
+}
+.loveCaseBigPic .trunPlay ul li{
+    width:534px;
+    float:left;
+}
+.loveCaseBigPic .trunPlay ul li img{
+    float:left;
+    vertical-align: middle;
+}
+
+
+
+
+/*每个月份的图片展示*/
+.month_list {
+    height: 392px;
+    width:1183px;
+    margin:0px auto 0px 120px;
+    position:relative;
+}
+.month_list .month_name {
+
+    margin-top: 51px;
+    height:99px;
+    background:url('../images/04191956.png') no-repeat;
+}
+.month_list .month_name span {
+    float:left;
+    height:67px;
+    font-size:67px;
+    margin-left:10px;
+}
+.month_list .month_name .word {
+    float:left;
+}
+.month_list .month_name .word p {
+    float:left;
+    font-size: 29px;
+    color:#333333;
+}
+.month_list .month_name .word h3 {
+    float:left;
+    font-size: 27px;
+    color:#000000;
+}
+.month_list ul li {
+    float:left;
+    height: 220px;
+    width:260px;
+    padding:10px;
+    border: 1px solid #ccc;
+    margin-right:12px;
+    cursor:pointer;
+
+    background-color:#000;
+}
+/*.month_list ul li:hover {*/
+    /*background-color:#ef7c6b;*/
+/*}*/
+.month_list ul li img {
+    vertical-align: middle;
+    width:260px;
+}
+.month_list ul li .txt {
+    font-size:13px;
+    color:#333333;
+    margin-top:16px;
+    font-weight: bold;
+}
+.month_list ul li .txt>span {
+    float:left;
+    color:#fff;
+}
+.month_list ul li .txt i {
+    font-style:normal;
+    float:right;
+    color:#fff;
+}
+
+
+
+/*二月份样式start*/
+#monthListFeb ul li {
+    opacity:0.1;
+}
+/*二月份样式start*/
+
+/*楼层跳转样式start*/
+.floorSkip {
+    position:fixed;
+    top:50%;
+    left:10px;
+    z-index:999;
+}
+
+.floorSkip li {
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color:#fff;
+    background-color:pink;
+    margin-top:5px;
+    cursor:pointer;
+    border-radius:5px;
+}
+.floorSkip li:hover {
+    background-color:red;
+}
+
+/*楼层跳转样式end*/
+
+/*一月份样式start*/
+
+/*一月份样式start*/
+
+
+
+/*最后一个月的展示*/
+.month_list_last {
+    height: 392px;
+    width:1183px;
+    margin:0px auto 0px 120px;
+}
+.month_list_last .month_name {
+
+    margin-top: 51px;
+    height:99px;
+    background:url('../images/04191956.png') no-repeat;
+}
+.month_list_last ul li {
+    float:left;
+    height: 220px;
+    width: 267px;
+    /*padding:10px;*/
+    border: 1px solid #ccc;
+    margin-right:12px;
+    cursor:pointer;
+}
+.month_list_last ul li .txt {
+    font-size:13px;
+    color:#333333;
+    margin-top:8px;
+    font-weight: bold;
+}
+.month_list_last ul li div.pic{
+    width: 267px;
+    height: 189px;
+    position:relative;
+    overflow:hidden;
+}
+.month_list_last .month_name span {
+    float:left;
+    height:67px;
+    font-size:67px;
+    margin-left:10px;
+}
+.month_list_last .month_name .word {
+    float:left;
+}
+.month_list_last .month_name .word p {
+    float:left;
+    font-size: 29px;
+    color:#333333;
+}
+.month_list_last .month_name .word h3 {
+    float:left;
+    font-size: 27px;
+    color:#000000;
+}
+
+
+/*擦出图片*/
+.eraserPic {
+    width: 44.5px;
+    height: 31.5px;
+    /* background:url(../images/lilong20170304.jpg) no-repeat; */
+    position: absolute;
+    border: 1px solid #ccc;
+    opacity: 0.3;
+    /* transition:0s; */
+}
+
+.month_list .zoom{
+    width: 600px;
+    height: 426px;
+    position:absolute;
+    right: 7px;
+    bottom: -65px;
+}
+.month_list .zoom .zoom_frame{
+    width: 100%;
+    height: 100%;
+}
+.month_list .zoom .zoom_frame .zoom_picture {
+    float:left;
+    width: 198px;
+    height: 140px;
+    padding: 0px;
+    margin:0px;
+    border:1px solid #ccc;
+    cursor: pointer;
+}
+.month_list .zoom .zoom_frame .zoom_picture img{
+    width: 198px;
+    height: 140px;
+}
+
+
+
+
+
+
+.month_list .zoom .bigImage {
+    height: 800px;
+    width: 1200px;
+    position:absolute;
+    right:50px;
+    top: -50px;
+    z-index: 2;
+    overflow:hidden;
+    /* opacity:0; */
+    /*background-color:red;*/
+    display:none;
+}
+.month_list .zoom .bigImage span {
+    width: 60px;
+    height: 100px;
+    line-height:100px;
+    font-size:100px;
+    position:absolute;
+    top:50%;
+    margin-top:-50px;
+    color:#fff;
+    cursor:pointer;
+}
+.month_list .zoom .bigImage span.prevImage {
+    left:50px;
+}
+.month_list .zoom .bigImage span.nextImage {
+    right:50px;
+}
+
+
+
+
+
+/*返回顶部小火箭start*/
+.rocket{
+    position:fixed;
+    bottom:30px;
+    right:30px;
+    cursor:pointer;
+    display:none;
+}
+/*返回顶部小火箭end*/
